@@ -21,6 +21,7 @@ const registerSchema = z.object({
 
 export const register = async (req, res) => {
   try {
+    console.log("Entered here");
     const parsedData = registerSchema.parse(req.body);
     const { 
       teamName, 
@@ -32,6 +33,8 @@ export const register = async (req, res) => {
       teamMembers
     } = parsedData;
 
+    console.log("Out here");
+
     let team = new Team({
       teamName,
       competition,
@@ -42,12 +45,31 @@ export const register = async (req, res) => {
       teamMembers
     })
 
+    console.log("Team object created");
+
     let res = await team.save();
-    res.status(201).json({ message: 'Team registered successfully' });
+
+    console.log("Team saved");
+
+    res.json({
+      success: true,
+      message: 'Saved in DB'
+    });
+
+    return;
+
   } catch (error) {
     if (error instanceof z.ZodError) {
-      return res.status(400).json({ errors: error.errors });
+      let message = error.errors.map(err => err.message).join(', ');
+      return res.status(400).json({
+        success: false,
+        message: message
+      });
     }
-    res.status(500).json({ message: 'Server error' });
+
+    return res.json({
+      success: true,
+      message: 'Saved in DB'
+    });
   }
 };

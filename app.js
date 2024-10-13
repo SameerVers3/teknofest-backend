@@ -22,7 +22,6 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/register', registrationRoute);
-
 app.use('/api/competitions', competitionRoute);
 
 // app.use(errorHandler);

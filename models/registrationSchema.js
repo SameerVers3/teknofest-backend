@@ -6,7 +6,7 @@ const memberSchema = new mongoose.Schema({
   phone: { type: Number, required: true },
   gender: { type: String,  enum: ['male', 'female'], required: true },
   education: { type: String, enum: ['intermediate', 'graduation', 'master', 'completed'], required: true },
-  isTeamLead: { type: Boolean},
+  isTeamLead: { type: Boolean },
   institute: {type: String, required: true},
   degree: {type: String, required: true},
 })
