@@ -6,12 +6,14 @@ import connectDB from './config/db.js';
 // import authRoutes from './routes/authRoutes.js';
 import registrationRoute from './routes/registrationRoutes.js';
 import competitionRoute from './routes/competitionRoutes.js';
+import cors from "cors";
 
 dotenv.config();
 
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 
 const env = process.env.NODE_ENV || 'development';
 

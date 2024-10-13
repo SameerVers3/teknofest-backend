@@ -60,43 +60,43 @@
 export const competitionsCategories = [
   {
     name: "Robo and Electronics",
-    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webphttps://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webp",
+    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg",
     id: "RE",
     description: 'jwefkenfe fe we d ewd e ded e ded e de  ed e de d e de de d ed'
   },
   {
     name: "Graphics and Animations",
-    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webphttps://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webp",
+    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg",
     id: "GA",
     description: 'jwefkenfe fe we d ewd e ded e ded e de  ed e de d e de de d ed'
   },
   {
     name: "Engineering Competitions",
-    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webphttps://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webp",
+    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg",
     id: "EC",
     description: 'jwefkenfe fe we d ewd e ded e ded e de  ed e de d e de de d ed'
   },
   {
     name: "Development and programming",
-    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webphttps://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webp",
+    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg",
     id: "DP",
     description: 'jwefkenfe fe we d ewd e ded e ded e de  ed e de d e de de d ed'
   },
   {
     name: "Data Science and Artificial Intelligence",
-    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webphttps://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webp",
+    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg",
     id: "DSAI",
     description: 'jwefkenfe fe we d ewd e ded e ded e de  ed e de d e de de d ed'
   },
   {
     name: "Cyber Security",
-    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webphttps://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webp",
+    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg",
     id: "CS",
         description: 'jwefkenfe fe we d ewd e ded e ded e de  ed e de d e de de d ed'
   },
   {
     name: "Business and Finance",
-    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webphttps://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg.webp",
+    img: "https://www.teknofestpakistan.com/wp-content/uploads/2024/09/Code-to-conquer_-300x300.jpg",
     id: "BF",
         description: 'jwefkenfe fe we d ewd e ded e ded e de  ed e de d e de de d ed'
   },
