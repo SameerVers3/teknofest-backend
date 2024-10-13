@@ -304,3 +304,56 @@ export const getCompetitionDetails = (id) => {
     }
   }
 }
+
+const getCompetition = (competition) => {
+  for (let i = 0; i < competitionsCategories.length; i++) {
+    if (competitionsCategories[i].hasOwnProperty(competition)) {
+      return competitionsCategories[i][competition];
+    }
+  }
+
+  for (let i = 0; i < roboAndElectronics.length; i++) {
+    if (roboAndElectronics[i].hasOwnProperty(competition)) {
+      return roboAndElectronics[i][competition];
+    }
+  }
+
+  for (let i = 0; i < graphicsAndAnimations.length; i++) {
+    if (graphicsAndAnimations[i].hasOwnProperty(competition)) {
+      return graphicsAndAnimations[i][competition];
+    }
+  }
+
+  for (let i = 0; i < EngineeringCompetitions.length; i++) {
+    if (EngineeringCompetitions[i].hasOwnProperty(competition)) {
+      return EngineeringCompetitions[i][competition];
+    }
+  }
+
+  for (let i = 0; i < DevelopmentAndProgramming.length; i++) {
+    if (DevelopmentAndProgramming[i].hasOwnProperty(competition)) {
+      return DevelopmentAndProgramming[i][competition];
+    }
+  }
+
+  for (let i = 0; i < DataScienceAndArtificialIntelligence.length; i++) {
+    if (DataScienceAndArtificialIntelligence[i].hasOwnProperty(competition)) {
+      return DataScienceAndArtificialIntelligence[i][competition];
+    }
+  }
+
+  for (let i = 0; i < CyberSecurity.length; i++) {
+    if (CyberSecurity[i].hasOwnProperty(competition)) {
+      return CyberSecurity[i][competition];
+    }
+  }
+
+  for (let i = 0; i < BusinessAndFinance.length; i++) {
+    if (BusinessAndFinance[i].hasOwnProperty(competition)) {
+      return BusinessAndFinance[i][competition
+      ];
+    }
+  }
+
+  return null;
+}

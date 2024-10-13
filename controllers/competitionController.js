@@ -10,7 +10,16 @@ export const getCompetitionDetail = async (req, res) => {
   if (!data) {
     res.status(404).json({ message: 'Competition not found' });
   }
-  
+
   res.json(data);
 };
 
+export const getCompetition = async (req, res) => {
+  const id = req.params.id;
+  const data = getCompetition(id);
+  if (!data) {
+    res.status(404).json({ message: 'Competition not found' });
+  }
+
+  res.json(data);
+};
